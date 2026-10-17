@@ -1,0 +1,251 @@
+.add-restaurant-page {
+    min-height: calc(100vh - 80px);
+
+    background:
+        linear-gradient(135deg,
+            #fff5f5,
+            #ffffff);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 50px 20px;
+}
+
+
+.add-restaurant-card {
+
+    width: 100%;
+
+    max-width: 550px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 35px rgba(0, 0, 0, 0.12);
+
+}
+
+
+/* HEADER */
+
+.add-restaurant-header {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+}
+
+
+.restaurant-icon {
+
+    font-size: 55px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.add-restaurant-header h1 {
+
+    margin: 0;
+
+    font-size: 32px;
+
+    color: #222;
+
+}
+
+
+.add-restaurant-header p {
+
+    color: #777;
+
+    margin-top: 8px;
+
+}
+
+
+/* FORM */
+
+.restaurant-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+
+.form-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+}
+
+
+.form-group label {
+
+    font-weight: 600;
+
+    color: #333;
+
+}
+
+
+.form-group input {
+
+    padding: 13px 15px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: 0.2s;
+
+}
+
+
+.form-group input:focus {
+
+    border-color: #e63946;
+
+    box-shadow:
+        0 0 0 3px rgba(230, 57, 70, 0.1);
+
+}
+
+
+.form-group small {
+
+    color: #888;
+
+}
+
+
+/* ERROR */
+
+.form-error {
+
+    background: #ffe5e5;
+
+    color: #d00000;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* SUCCESS */
+
+.form-success {
+
+    background: #e7f8ec;
+
+    color: #16803c;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* BUTTONS */
+
+.form-buttons {
+
+    display: flex;
+
+    gap: 12px;
+
+    margin-top: 10px;
+
+}
+
+
+.cancel-btn,
+.submit-btn {
+
+    flex: 1;
+
+    padding: 13px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+}
+
+
+.cancel-btn {
+
+    background: white;
+
+    border: 1px solid #ddd;
+
+    color: #555;
+
+}
+
+
+.cancel-btn:hover {
+
+    background: #f5f5f5;
+
+}
+
+
+.submit-btn {
+
+    background: #e63946;
+
+    color: white;
+
+    border: none;
+
+}
+
+
+.submit-btn:hover {
+
+    background: #c92f3c;
+
+}
+
+
+.submit-btn:disabled {
+
+    background: #aaa;
+
+    cursor: not-allowed;
+
+}
